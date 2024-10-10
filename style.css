@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.753);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctn {
+    width: 600px;
+    background-color: rgba(241, 84, 56, 0.726);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.top-stats h1 {
+    border-bottom: 3px solid white;
+    padding: 0 0 15px 0;
+}
+
+.question {
+    margin-top: 10px;
+}
+
+.ans-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.ans-btn .btn {
+    height: 55px;
+}
+
+.ans-btn button {
+    font-size: 20px;
+    text-align: left;
+    padding: 4px 14px;
+    border-radius: 5px;
+    border: 0;
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.ans-btn button:hover:not(:disabled) {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.ans-btn button:disabled{
+    cursor: no-drop;
+}
+
+.ans-btn .correct {
+    background-color: rgba(0, 128, 0, 0.726);
+    color: white;
+}
+.ans-btn .in-correct{
+    background-color: rgba(255, 0, 0, 0.726);
+    color: white;
+}
+
+.next {
+    padding: 8px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    background-color: black;
+    color: #fff;
+    /* margin-left: 40%; */
+    border: 2px solid black;
+    display: none;
+}
+
+.next:hover {
+    background: transparent;
+    border: 2px solid black;
+}
