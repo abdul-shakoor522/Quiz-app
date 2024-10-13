@@ -1,1 +1,1 @@
-<h1>App Link : </h1> [(https://quiz-funda.vercel.app/)]
+<h1>App Link : </h1> <span style='color:green'>https://quiz-funda.vercel.app/</span>
