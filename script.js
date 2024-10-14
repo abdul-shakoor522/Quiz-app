@@ -66,7 +66,7 @@ const questions = [
     {
         question: 'Who is Imran Khan?', 
         answers: [
-            { text: 'Ploice Officer', correct: false },
+            { text: 'Ploice Officer', correct: false},
             { text: 'Politician', correct: true },
             { text: 'Business Man', correct: false },
             { text: 'Gold seller', correct: false }
